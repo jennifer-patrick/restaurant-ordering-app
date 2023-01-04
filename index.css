@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', sans-serif;
+    font-weight:400;
+
+} 
+
+.container {
+    width:600px;
+    margin:0 auto;
+}
+
+section {
+    width: 508px;
+    margin: 0 auto;
+}
+
+/* header */
+
+header {
+    color:white;
+    background-image: url(burger.webp);
+    background-size: 600px auto;
+    background-position: 0 -140px;
+    padding:25px;
+    margin-bottom: 20px;
+}
+
+/* typography */
+
+h1,h2,h3,h4{
+    font-weight:400;
+}
+
+h1 {
+    font-size:39px;
+    line-height:24px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #888;
+}
+
+/* utlity classes */
+
+.center-align {
+    text-align:center;
+}
+
+.flex-right-align {
+    margin-left:auto;
+}
+
+.display-none {
+    display:none;
+}
+
+.proceed-btn {
+    background-color:#16DB99;
+    border:none;
+    height: 60px;
+    color:white;
+    display:block;
+    margin: 30px auto 50px;
+}
+
+.verdana-bold {
+    font-family: Verdana, sans-serif;
+    font-weight:bold;
+}
+
+/* menu */
+
+.menu-item, #price-element {
+    padding:0px 20px 0px 20px;
+    gap:20px;
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    border-bottom: 1.5px solid #DEDEDE; 
+}
+
+.add-btn{
+    font-size: 20px;
+    background-color:white;
+    border:1.5px solid #DEDEDE;
+    padding:10px 15px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.emoji {
+    font-size: 70px;
+}
+
+/* your order/basket */
+
+.your-order {
+    padding-top: 20px;
+}
+
+.order-container {
+    padding: 0px 20px 0px 20px;
+    display:flex;
+    flex-direction:row;
+    align-items:baseline;
+}
+
+.price {
+    margin-right: 20px;
+}
+
+.remove-btn {
+    background:none;
+    border:none;
+    font-family: Verdana, sans-serif;
+    font-size:12px;
+    color: #BBBBBB;
+    padding-left: 15px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+#complete-btn {
+    width:508px;
+}
+
+.order-complete {
+    margin: 40px 30px;
+    text-align: center;
+    padding: 20px 40px;
+    color: #065F46;
+    background-color: #ECFDF5
+}
+
+/* payment modal */
+
+.modal{
+    background:white;
+    box-shadow: 0px 0px 50px;
+    width:524px;
+    height: 542px;    
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin: auto;
+    position:fixed;
+}
+
+.modal h3 {
+    padding: 15px 0 25px 0;
+}
+
+form{
+    padding:40px 20px;
+    text-align:center;
+    justify-content: center;
+}
+
+input {
+    width:89%;
+    padding:20px 20px;
+    margin: 10px 0px;
+    font-family: Verdana, sans-serif;
+}
+
+#pay-btn {
+    width: 475px;
+}
+
+.exit-modal-btn {
+    position: fixed;
+    left: 400px;
+    right: 0;
+    top: 0;
+    bottom: 440px;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
